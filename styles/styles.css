@@ -236,6 +236,14 @@ footer{width: 1500px;
             font-weight: 500;
             line-height: normal;
         margin-top: 50px;}
+        .card:hover{color: #4c6452;}
+        .c-para:hover{color: #4410d4;}
+        .vdo:hover{color: #202223;
+        border: 10px darkblue solid; 
+        background-color: #202223;
+    
+        
+    }
             
 
 
@@ -257,7 +265,7 @@ footer{width: 1500px;
  /*responsive*/
 
  @media screen  and (max-width:576px) {
-   header{height: 1700px;width: 1000px;
+   header{height: 1700px;width: 1200px;
 padding: -50px;}
     nav {
         flex-direction: column;
@@ -272,21 +280,9 @@ height: 1000px;width: 1000px;}
     {margin-bottom: 9000px;
     margin-top: -400px;}
 
-    .online{
-    
-    padding-left: 300px;
-}
-        
-.card{flex-direction: column;
-    align-items: center;}
+   footer{width: 1200px;}
+   .Q{margin-right: -100px;}
 
-    .c-para{width: 500px;
-        height: 500px;
-        }
-
-   .on-text{text-align: center;}
-    
-} 
 
 
 
