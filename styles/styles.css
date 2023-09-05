@@ -95,7 +95,8 @@ background-clip: text;
 
  
             /*online games */
-            .online{text-align: center;}
+            .online{text-align: center;
+            height: 600px;}
             .games{color: #0B0223;
                
                 font-family: Work Sans;
@@ -128,6 +129,33 @@ background-clip: text;
                 height: 400px;
                 flex-shrink: 0;}
 
+                .instant{display: flex;
+                justify-content:space-around;
+            padding-right: 10px;}
+
+            .instant-paragraph{text-align: right;
+               
+        margin: 200px 200px;
+           }
+           .A{text-align: right;
+            font-family: Work Sans;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px; /* 125% */
+            background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;}
+            .B{color: #0B0223;
+                font-family: Work Sans;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px;}
+                .angela{margin-top:-200px ;
+                    margin-left: -150px;
+                }
 
 
 
