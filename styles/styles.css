@@ -37,76 +37,156 @@ nav a{ text-decoration: none;}
     .btn-1{border: none;
         background: rgba(237, 235, 241, 0.906);}
 
+/*head banner*/
+.head{display: flex;
+justify-content: space-between;
+width: 1500px;
+height: 5000px;
+}
+.head-bg{ height: 500px;}
+.head-paragraph{ padding: 200px;
+margin-top: -600px;
+margin-bottom: 300px;
+}
+.play{color: #0B0223;
+    font-size: 30px;
+     font-weight: 600;
+ }
+    .goat{margin-top: 10px;
+          font-size: 95px;
+        font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+.h-p{color: #534C64;
+    margin-top:-10px;margin-bottom: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;}
+    .head-btn{display: inline-flex;
+        padding: 21px 40px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 40px;
+        background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;}
+        .head-btn1{display: inline-flex;
+            padding: 21px 40px;
+            align-items: flex-start;
+            gap: 10px;
+            border-radius: 48px;
+            background: #4EC5F7;
+            color: #FFF;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;}
+
+ 
 
 
 
+ /*responsive*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /*responsive*/
-
-@media screen  and (max-width:576px) {
+ @media screen  and (max-width:576px) {
+   header{height: 1000px;width: 1000px;
+padding: -50px;}
     nav {
         flex-direction: column;
         align-items: center;
     }
     nav ul{flex-direction: column;
     padding: 10px;}
+    div.head{flex-direction: column;
+    align-items: center;
+height: 1000px;width: 1000px;}
+    div.Group18
+    {margin-bottom: 9000px;
+    margin-top: -400px;}
+    
+} 
 
+
+
+   
+/*for tablet */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{height: 1000px;width: 1000px;}
+    div.head{flex-direction: column;
+    width: 1000px;
+height: 1000px; padding: 30px;}
+        div.Group18{margin-bottom: 9000px;
+            margin-top: -400px;
+}
+        
+    
 }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
